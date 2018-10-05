@@ -1,0 +1,7 @@
+<div align="center">
+        <canvas #canvasEl width=400 height=200 style="border: 1px solid black;">
+        </canvas>
+</div>
+<div align = "center"> 
+        <button #accel (mouseup)="setGravity($event,0.05)" (mousedown)="setGravity($event,-0.05)"> Accelerate</button> 
+</div>
